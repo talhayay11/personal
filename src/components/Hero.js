@@ -66,34 +66,36 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.8 }}
         >
           <motion.a
-            href="https://github.com/yourusername"
+            href="https://github.com/talhayay11"
             target="_blank"
+            rel="noopener noreferrer"
             whileHover={{ scale: 1.2, rotate: 5 }}
             whileTap={{ scale: 0.9 }}
           >
             <i className="fab fa-github"></i>
           </motion.a>
           <motion.a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/talha-yay-01682222a/"
             target="_blank"
+            rel="noopener noreferrer"
             whileHover={{ scale: 1.2, rotate: -5 }}
             whileTap={{ scale: 0.9 }}
           >
             <i className="fab fa-linkedin"></i>
           </motion.a>
         </motion.div>
-
-        <Link to="about" smooth={true} duration={500}>
-          <motion.div
-            className="scroll-indicator"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.5 }}
-          >
-            <i className="fas fa-chevron-down"></i>
-          </motion.div>
-        </Link>
       </motion.div>
+
+      <Link to="about" smooth={true} duration={500}>
+        <motion.div
+          className="scroll-indicator"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.5 }}
+        >
+          <i className="fas fa-chevron-down"></i>
+        </motion.div>
+      </Link>
     </section>
   );
 };
