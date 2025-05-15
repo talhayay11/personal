@@ -3,12 +3,10 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
 
 const Hero = () => {
-  const [isVisible, setIsVisible] = useState(false);
   const [typedText, setTypedText] = useState('');
   const fullText = 'Front-end Geliştirici';
 
   useEffect(() => {
-    setIsVisible(true);
     let currentIndex = 0;
     const interval = setInterval(() => {
       if (currentIndex <= fullText.length) {
