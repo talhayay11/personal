@@ -20,7 +20,15 @@ const About = () => {
         viewport={{ once: true }}
       >
         <p>
-          Front-end geliştirme konusunda tutkulu bir yazılımcıyım. Modern web teknolojileri ile kullanıcı dostu ve etkileyici web siteleri geliştiriyorum.
+          Karadeniz Teknik Üniversitesi Bilgisayar Mühendisliği bölümünden yeni mezun oldum. 
+          Eğitim hayatım boyunca iki farklı staj deneyimi edindim ve bu deneyimler sayesinde 
+          profesyonel yazılım geliştirme süreçlerini yakından tanıma fırsatı buldum.
+        </p>
+        <p>
+          Şu anda web geliştirme alanında kariyer yapmak için aktif olarak iş arıyorum. 
+          Modern web teknolojileri ile kullanıcı dostu ve etkileyici web uygulamaları 
+          geliştirmeye odaklanıyorum. Sürekli öğrenmeye ve kendimi geliştirmeye açık bir 
+          yaklaşımla, yeni teknolojileri takip ediyor ve projelerimde uyguluyorum.
         </p>
       </motion.div>
     </section>

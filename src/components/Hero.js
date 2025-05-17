@@ -84,18 +84,20 @@ const Hero = () => {
             <i className="fab fa-linkedin"></i>
           </motion.a>
         </motion.div>
-      </motion.div>
 
-      <Link to="about" smooth={true} duration={500}>
-        <motion.div
-          className="scroll-indicator"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1.5 }}
-        >
-          <i className="fas fa-chevron-down"></i>
-        </motion.div>
-      </Link>
+        <Link to="about" smooth={true} duration={500}>
+          <motion.div
+            className="scroll-indicator"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.5 }}
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.9 }}
+          >
+            <i className="fas fa-chevron-down"></i>
+          </motion.div>
+        </Link>
+      </motion.div>
     </section>
   );
 };
